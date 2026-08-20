@@ -1,3 +1,4 @@
+import { add, subtract } from './index';
 const { add, subtract } = require('./index');
 let passed = 0, failed = 0;
 function assert(name, actual, expected) {
