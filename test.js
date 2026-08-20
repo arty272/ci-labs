@@ -1,5 +1,4 @@
-import { add, subtract } from 'index.js';
-//const { add, subtract } = require('./index');
+const { add, subtract } = require('index');
 let passed = 0, failed = 0;
 function assert(name, actual, expected) {
   if (actual === expected) { passed++; console.log('PASS: ' + name); }
